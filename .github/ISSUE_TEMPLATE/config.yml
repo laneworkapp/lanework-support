@@ -4,5 +4,5 @@ contact_links:
     url: https://laneworkapp.com/support/
     about: Answers to common questions about boards, files, sync and requirements.
   - name: Something private, or a security issue
-    url: https://laneworkapp.com/support/
-    about: Issues here are public. Email the address on the Support page instead.
+    url: mailto:support@laneworkapp.com
+    about: Issues here are public. Email support@laneworkapp.com instead.

@@ -21,7 +21,7 @@ The bug form asks for your macOS version, your Lanework version and build (shown
 
 Everything posted here, attachments included, can be read by anyone. Before you attach a board, a screenshot or a log, remove anything private: card titles, notes, names, file paths.
 
-If you need to share something private, email [indie@rzen.dev](mailto:indie@rzen.dev) instead. Do the same for security issues: please don't report them here.
+If you need to share something private, email [support@laneworkapp.com](mailto:support@laneworkapp.com) instead. Do the same for security issues: please don't report them here.
 
 ## Beta testers
 
