@@ -1,0 +1,76 @@
+name: Bug report
+description: Something in Lanework doesn't work the way it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Issues are public, so leave out anything private: card titles, notes, names, file paths.
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Apple menu > About This Mac.
+      placeholder: "macOS 26.1"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Lanework version and build
+      description: Shown in Lanework's About window.
+      placeholder: "1.0 (123)"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did
+      description: The steps that lead to the problem.
+      placeholder: |
+        1. Open a board
+        2. Drag a card to another column
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: dropdown
+    id: location
+    attributes:
+      label: Where the board lives
+      options:
+        - A local folder
+        - iCloud Drive
+        - Dropbox or another syncing service
+        - A git repository
+        - Somewhere else
+        - Not sure
+    validations:
+      required: false
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots, recordings or a sample board
+      description: Drag files in. A zipped copy of a small `.lanework` board that shows the problem is often the most useful. Remove anything private first.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and didn't find this one.
+          required: true
+        - label: Nothing private is in this issue or its attachments.
+          required: true

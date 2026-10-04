@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support page
+    url: https://laneworkapp.com/support/
+    about: Answers to common questions about boards, files, sync and requirements.
+  - name: Something private, or a security issue
+    url: https://laneworkapp.com/support/
+    about: Issues here are public. Email the address on the Support page instead.

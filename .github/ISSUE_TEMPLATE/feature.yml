@@ -1,0 +1,32 @@
+name: Feature request
+description: Something you'd like Lanework to do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you're trying to do
+      description: The task or situation, in your own words. What gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: How you imagine it working. A sketch or a screenshot is welcome.
+    validations:
+      required: false
+  - type: textarea
+    id: workaround
+    attributes:
+      label: How you manage today
+      description: Any workaround you use now, in Lanework or elsewhere.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and didn't find this one.
+          required: true
